@@ -4,7 +4,7 @@ import { WHATSAPP_MESSAGES } from '@/lib/constants';
 import { CTA_SOURCE } from '@/lib/whatsapp';
 import { WhatsAppButton } from '../ui/WhatsAppButton';
 
-export function CTA() {
+export  function CTA() {
   return (
     <section
       id="cta"

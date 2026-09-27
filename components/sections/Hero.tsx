@@ -3,6 +3,7 @@ import { MessageCircle, ArrowLeft, ArrowUpLeft, Check } from 'lucide-react';
 import { WHATSAPP_MESSAGES } from '@/lib/constants';
 import { CTA_SOURCE } from '@/lib/whatsapp';
 import { WhatsAppButton } from '../ui/WhatsAppButton';
+import Link from 'next/link';
 
 export function Hero() {
   return (
@@ -30,20 +31,20 @@ export function Hero() {
         <div className="max-w-3xl">
           
           {/* Tagline / Sub-brand */}
-          <div className="mb-4 sm:mb-6 flex items-center gap-3 text-xs font-bold tracking-[0.2em] text-industrial-gold">
+          <div className="mb-4 sm:mb-6 flex items-center gap-3 text-sm font-black tracking-[0.2em] text-industrial-gold sm:text-base">
             <span className="h-px w-10 bg-industrial-gold" />
             <span>خبراء الإيبوكسي</span>
           </div>
 
           {/* Main Headline */}
           <h1 className="max-w-3xl text-3xl font-black leading-[1.2] tracking-tight text-white sm:text-5xl lg:text-6xl xl:text-7xl">
-            أرضيات إيبوكسي احترافية{' '}
+            حلول إيبوكسي احترافية{' '}
             <span className="text-industrial-gold">للمشاريع الصناعية</span>
           </h1>
 
           {/* Description */}
           <p className="mt-5 sm:mt-6 max-w-xl text-sm leading-relaxed text-white/80 sm:text-base lg:text-lg">
-            توريد وتركيب حلول أرضيات إيبوكسي مصممة لتناسب احتياجات المصانع، الهناجر، الورش، والمستودعات بأعلى معايير الجودة والتحمل.
+            توريد وتركيب حلول إيبوكسي متكاملة مصممة لتناسب احتياجات المصانع، الهناجر، الورش، والمستودعات بأعلى معايير الجودة والتحمل.
           </p>
 
           {/* Call To Actions */}
@@ -61,13 +62,16 @@ export function Hero() {
               />
             </WhatsAppButton>
 
-            <a
-              href="#projects"
-              className="inline-flex min-h-[52px] w-full sm:w-auto items-center justify-center gap-2 rounded-md border border-white/25 bg-white/5 px-6 py-3.5 text-sm font-bold text-white backdrop-blur-sm transition-all hover:border-white hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-industrial-gold focus-visible:ring-offset-2 focus-visible:ring-offset-industrial-dark active:scale-[0.99]"
+            <Link
+              href="/projects"
+              className="group inline-flex min-h-[52px] w-full sm:w-auto items-center justify-center gap-2 rounded-md border-2 border-white/30 px-6 py-3 font-bold text-white transition hover:bg-white/10"
             >
               <span>شاهد أعمالنا</span>
-              <ArrowUpLeft size={18} />
-            </a>
+              <ArrowUpLeft
+                size={18}
+                className="transition-transform group-hover:-translate-y-0.5 group-hover:-translate-x-0.5"
+              />
+            </Link>
           </div>
 
           {/* Quick Trust Badges */}

@@ -3,7 +3,7 @@ export const COMPANY = {
   nameEn: "Epoxy Experts",
   whatsappNumber: "966567065161",
   phoneNumber: "966567065161",
-  serviceArea: "المملكة العربية السعودية",
+  serviceArea: "الرياض، المملكة العربية السعودية",
   socials: {
     // facebook: "",
     // instagram: "",

@@ -18,7 +18,7 @@ export default function Home() {
       <Process />
       <CTA />
       <Faq />
-      < FinalCTA />
+      <FinalCTA />
       <Footer />
     </>
 
