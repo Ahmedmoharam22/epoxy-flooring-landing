@@ -30,16 +30,17 @@ export function Hero() {
       <div className="relative mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8 pt-12 sm:pt-16 lg:pt-0">
         <div className="mx-auto max-w-3xl text-center sm:mx-0 sm:text-right">
           
-          {/* Tagline / Sub-brand */}
-          <div className="mb-5 flex items-center justify-center gap-3 text-lg font-black tracking-[0.15em] text-industrial-gold sm:mb-6 sm:justify-start sm:text-base">
+          {/* Brand Name — acts as the logo, no image logo exists */}
+          <div className="mb-6 flex items-center justify-center gap-3 sm:mb-7 sm:justify-start">
             <span className="hidden h-px w-10 bg-industrial-gold sm:block" />
-            <span>خبراء الإيبوكسي</span>
+            <span className="text-3xl font-black tracking-tight text-industrial-gold sm:text-2xl lg:text-3xl">
+              خبراء الإيبوكسي
+            </span>
           </div>
 
           {/* Main Headline */}
           <h1 className="max-w-3xl text-3xl font-black leading-[1.2] tracking-tight text-white sm:text-5xl lg:text-6xl xl:text-7xl">
-            حلول إيبوكسي احترافية{' '}
-            <span className="text-industrial-gold">للمشاريع الصناعية</span>
+            حلول إيبوكسي احترافية
           </h1>
 
           {/* Description */}
