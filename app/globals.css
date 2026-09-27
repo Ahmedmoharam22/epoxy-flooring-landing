@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-tajawal), system-ui, sans-serif;
+
+  --color-industrial-gold: #e3b348;
+  --color-industrial-gold-hover: #f0c563;
+  --color-industrial-gold-dark: #b08420;
+  --color-industrial-dark: #1b1c1a;
+  --color-industrial-dark-card: #20211e;
+  --color-industrial-dark-deep: #131411;
+  --color-industrial-gray: #64748b;
+}
+
+:root {
+  --color-primary: #111418;
+  --color-secondary: #f5f6f7;
+  --color-neutral: #6b7280;
+  --color-accent: #e8a33d;
+  --color-whatsapp: #25d366;
+}
+
+/* مساحة تحت الصفحة عشان الـ Sticky Mobile CTA متغطيش المحتوى الأخير */
+body {
+  padding-bottom: 4.5rem;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding-bottom: 0;
+  }
+}
