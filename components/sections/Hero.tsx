@@ -13,11 +13,11 @@ export function Hero() {
     >
       {/* Hero Background Image */}
       <Image
-        src="/images/epoxy-hero.png"
+        src="/images/epoxy-hero.webp"
         alt="أرضية إيبوكسي احترافية في مساحة صناعية واسعة"
         fill
         priority
-        className="object-cover object-center opacity-60 pointer-events-none"
+        className="object-cover object-center opacity-85 pointer-events-none"
         sizes="100vw"
       />
 

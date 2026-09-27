@@ -23,8 +23,8 @@ export function Footer() {
             >
               واتساب: +{COMPANY.whatsappNumber}
             </a>
-            <a 
-              href={buildCallLink()} 
+            <a
+              href={buildCallLink()}
               className="hover:text-white transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-industrial-gold focus-visible:ring-offset-2 rounded"
               aria-label={`اتصل بنا عبر الهاتف +${COMPANY.phoneNumber}`}
             >
@@ -33,8 +33,22 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 pt-6 text-xs text-center">
-          © {year} {COMPANY.name}. جميع الحقوق محفوظة.
+        <div className="border-t border-gray-800 pt-6 text-xs text-center space-y-1">
+          <p>
+            © {year} {COMPANY.name}. جميع الحقوق محفوظة.
+          </p>
+          <p>
+            صُمم وطُوّر بواسطة{" "}
+            <a
+              href="https://ahmedmoharam.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#E8A33D] font-bold hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-industrial-gold focus-visible:ring-offset-2 rounded"
+              aria-label="Ahmed Moharam (يفتح في نافذة جديدة)"
+            >
+              Ahmed Moharam
+            </a>
+          </p>
         </div>
       </div>
     </footer>

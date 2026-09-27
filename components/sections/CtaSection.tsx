@@ -13,7 +13,7 @@ export function CTA() {
     >
       {/* Background Image */}
       <Image
-        src="/images/epoxy-project-2.png"
+        src="/images/epoxy-project-2.webp"
         alt="أرضية إيبوكسي احترافية في ورشة صناعية"
         fill
         loading="lazy"

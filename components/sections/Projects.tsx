@@ -15,19 +15,19 @@ const defaultProjects: ProjectItem[] = [
     id: '1',
     title: 'مساحة صناعية واسعة بأرضية إيبوكسي عالية التحمل',
     tag: 'مساحة صناعية',
-    image: '/images/epoxy-hero.png',
+    image: '/images/epoxy-factory-01.webp',
   },
   {
     id: '2',
     title: 'ورشة عمل بأرضية إيبوكسي وخطوط تحديد وتنظيم أمان',
-    tag: 'ورشة',
-    image: '/images/epoxy-project-2.png',
+    tag: 'هنجر',
+    image: '/images/epoxy-factory-02.webp',
   },
   {
     id: '3',
     title: 'مستودع تخزين بأرضية إيبوكسي منظمة وسهلة التنظيف',
     tag: 'مستودع',
-    image: '/images/epoxy-project-3.png',
+    image: '/images/epoxy-factory-03.webp',
   },
 ];
 
