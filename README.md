@@ -1,7 +1,7 @@
 # خبراء الإيبوكسي | Epoxy Experts — Landing Page
 
 <p align="center">
-  <img src="./public/images/epoxy-hero.webp" alt="Epoxy Experts Hero" width="100%" />
+<img width="1280" height="960" alt="epoxy-factory-03" src="https://github.com/user-attachments/assets/ed8e6093-6026-4f87-b490-5823f6a56aed" />
 </p>
 
 <p align="center">
@@ -26,9 +26,14 @@ Google Search Ad → Landing Page → Trust → Clear Offer → WhatsApp Click �
 
 | Hero                                     | Services                                        | Projects                                          |
 | ---------------------------------------- | ----------------------------------------------- | ------------------------------------------------- |
-| ![Hero](./public/images/epoxy-hero.webp) | ![Services](./public/images/epoxy-factory.webp) | ![Projects](./public/images/epoxy-warehouse.webp) |
+<img width="1376" height="768" alt="epoxy-project-3" src="https://github.com/user-attachments/assets/a73593a3-171e-468c-9b04-0acf2a262bdf" />
+<img width="1408" height="768" alt="epoxy-project-2" src="https://github.com/user-attachments/assets/964d5d68-df0f-497b-b6ad-142468a059d2" />
+<img width="1280" height="960" alt="epoxy-factory-02" src="https://github.com/user-attachments/assets/b94491a6-2359-4d73-b7f1-d8658a0ff57c" />
 
-> استبدل الصور دي بسكرين شوت فعلي للصفحة بعد الرفع (Desktop + Mobile) لتوثيق أدق.
+
+
+
+
 
 ---
 
@@ -49,16 +54,12 @@ Google Search Ad → Landing Page → Trust → Clear Offer → WhatsApp Click �
 
 ---
 
-## 🧱 Tech Stack
+## 🛠️ Tech Stack
 
-| الجزء     | التقنية                                  | السبب                                  |
-| --------- | ---------------------------------------- | -------------------------------------- |
-| Framework | Next.js 15 (App Router)                  | SSR/SSG سريع، جاهز للنشر على Vercel    |
-| Language  | TypeScript                               | Type safety وأخطاء أقل وقت الـ build   |
-| Styling   | Tailwind CSS 4                           | تحكم سريع بدون CSS منفصل، حجم صغير     |
-| Fonts     | `next/font` (Tajawal)                    | Self-hosted، بدون طلب خارجي، أداء أفضل |
-| Analytics | GTM + GA4 + Google Ads (via `dataLayer`) | تتبع مركزي بدون تعديل الكود لاحقًا     |
-| icons     | lucide-react                             | lightweight and fast                   |
+- **Framework:** [Next.js 14](https://nextjs.org/) (App Router)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Icons:** [Lucide React](https://lucide.dev/)                                       
 
 ---
 
