@@ -32,7 +32,7 @@ interface WhyEpoxyProps {
 
 export default function WhyEpoxy({
   features = defaultFeatures,
-  imageSrc = '/images/epoxy-project-1.png',
+  imageSrc = '/images/epoxy-project-1.webp',
 }: WhyEpoxyProps) {
   return (
     <section id="why-epoxy" dir="rtl" className="bg-industrial-dark-card text-white overflow-hidden">
