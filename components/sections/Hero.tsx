@@ -28,11 +28,11 @@ export function Hero() {
 
       {/* Main Content Container */}
       <div className="relative mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8 pt-12 sm:pt-16 lg:pt-0">
-        <div className="max-w-3xl">
+        <div className="mx-auto max-w-3xl text-center sm:mx-0 sm:text-right">
           
           {/* Tagline / Sub-brand */}
-          <div className="mb-4 sm:mb-6 flex items-center gap-3 text-sm font-black tracking-[0.2em] text-industrial-gold sm:text-base">
-            <span className="h-px w-10 bg-industrial-gold" />
+          <div className="mb-5 flex items-center justify-center gap-3 text-lg font-black tracking-[0.15em] text-industrial-gold sm:mb-6 sm:justify-start sm:text-base">
+            <span className="hidden h-px w-10 bg-industrial-gold sm:block" />
             <span>خبراء الإيبوكسي</span>
           </div>
 
@@ -43,12 +43,12 @@ export function Hero() {
           </h1>
 
           {/* Description */}
-          <p className="mt-5 sm:mt-6 max-w-xl text-sm leading-relaxed text-white/80 sm:text-base lg:text-lg">
+          <p className="mx-auto mt-5 max-w-xl text-sm leading-relaxed text-white/80 sm:mx-0 sm:mt-6 sm:text-base lg:text-lg">
             توريد وتركيب حلول إيبوكسي متكاملة مصممة لتناسب احتياجات المصانع، الهناجر، الورش، والمستودعات بأعلى معايير الجودة والتحمل.
           </p>
 
           {/* Call To Actions */}
-          <div className="mt-7 sm:mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
+          <div className="mt-7 flex flex-col items-center gap-3 sm:mt-8 sm:flex-row sm:items-center">
             <WhatsAppButton
               message={WHATSAPP_MESSAGES.default}
               source={CTA_SOURCE.HERO}
@@ -75,7 +75,7 @@ export function Hero() {
           </div>
 
           {/* Quick Trust Badges */}
-          <div className="mt-10 sm:mt-12 flex flex-wrap gap-x-8 gap-y-3 border-t border-white/15 pt-6 text-xs sm:text-sm font-semibold text-white/75">
+          <div className="mt-10 flex flex-wrap items-center justify-center gap-x-8 gap-y-3 border-t border-white/15 pt-6 text-xs font-semibold text-white/75 sm:mt-12 sm:justify-start sm:text-sm">
             <span className="flex items-center gap-2">
               <Check size={16} className="text-industrial-gold shrink-0" />
               توريد وتركيب متكامل
