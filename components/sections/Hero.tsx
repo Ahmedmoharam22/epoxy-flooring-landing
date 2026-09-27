@@ -10,7 +10,7 @@ export function Hero() {
     <section
       id="top"
       dir="rtl"
-      className="relative flex min-h-[100dvh] w-full items-center overflow-hidden bg-industrial-dark py-20 lg:py-24"
+      className="relative flex min-h-[100dvh] w-full items-center overflow-hidden bg-industrial-dark py-16 lg:py-24"
     >
       {/* Hero Background Image */}
       <Image
@@ -27,20 +27,20 @@ export function Hero() {
       <div className="absolute inset-0 opacity-15 industrial-grid pointer-events-none" />
 
       {/* Main Content Container */}
-      <div className="relative mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8 pt-12 sm:pt-16 lg:pt-0">
+      <div className="relative mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8 pt-4 sm:pt-16 lg:pt-0">
         <div className="mx-auto max-w-3xl text-center sm:mx-0 sm:text-right">
           
           {/* Brand Name — acts as the logo, no image logo exists */}
-          <div className="mb-6 flex items-center justify-center gap-3 sm:mb-7 sm:justify-start">
+          <div className="mb-8 flex items-center justify-center gap-3 sm:mb-6 sm:justify-start">
             <span className="hidden h-px w-10 bg-industrial-gold sm:block" />
-            <span className="text-3xl font-black tracking-tight text-industrial-gold sm:text-2xl lg:text-3xl">
+            <span className="text-4xl font-black tracking-tight text-industrial-gold sm:text-3xl lg:text-4xl">
               خبراء الإيبوكسي
             </span>
           </div>
 
           {/* Main Headline */}
           <h1 className="max-w-3xl text-3xl font-black leading-[1.2] tracking-tight text-white sm:text-5xl lg:text-6xl xl:text-7xl">
-            حلول إيبوكسي احترافية
+            حلول إيبوكسي احترافية{' '}
           </h1>
 
           {/* Description */}
@@ -80,10 +80,6 @@ export function Hero() {
             <span className="flex items-center gap-2">
               <Check size={16} className="text-industrial-gold shrink-0" />
               توريد وتركيب متكامل
-            </span>
-            <span className="flex items-center gap-2">
-              <Check size={16} className="text-industrial-gold shrink-0" />
-              حلول مخصصة للمشروعات الصناعية
             </span>
             <span className="flex items-center gap-2">
               <Check size={16} className="text-industrial-gold shrink-0" />
